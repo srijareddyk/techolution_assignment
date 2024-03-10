@@ -3,16 +3,16 @@ Modularized Object Oriented Python Coding Assessment - Techolution X MU
 
 # Report: Student and Course Management System
 
-The code presents a straightforward implementation of a Student and Course Management System. It defines two classes, namely Student and Course, serving to model students and courses, respectively. The system facilitates user interaction for inputting student details, enrolling students in a course, assigning grades, and computing the average GPA for the enrolled students.
+The code shows an implementation of a Student and Course Management System. It defines two classes: Student and Course, serving to model students and courses. The system facilitates user interaction for inputting student details, enrolling students in a course, assigning grades, and computing the average GPA for the enrolled students.
 
 
 ## Code Explanation
 ### 1. Student Class
 - Initializes a Student instance with a unique student_id and name.
-- Creates an empty dictionary (grades) to hold course grades.
+- Creates an empty dictionary to hold course grades.
 
 #### Add Grade Method
-- Appends a grade (grade) for a specified course (course) to the student's grades dictionary.
+- Appends a grade for a specified course (course) to the student's grades dictionary.
 
 #### Calculate GPA Method
 - Computes the GPA for the student based on the stored grades in the grades dictionary.
@@ -23,10 +23,10 @@ The code presents a straightforward implementation of a Student and Course Manag
 - Creates an empty list (enrolled_students) to store enrolled students.
 
 #### Add Student Method
-- Inserts a student (student) into the list of enrolled students.
+- Inserts a student into the list of enrolled students.
 
 #### Remove Student Method
-- Deletes a student (student) from the list of enrolled students.
+- Deletes a student from the list of enrolled students.
 
 #### Calculate Average GPA Method
 - Computes the average GPA for all enrolled students in the course.
